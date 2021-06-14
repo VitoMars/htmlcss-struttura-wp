@@ -11,6 +11,7 @@
 }
 
 .contenitore {
+  font-size: 20px;
   width: 70%;
   margin: 0 auto;
 }
@@ -24,7 +25,7 @@ section {
   margin-top: 1%;
 }
 
-#giallo {
+.giallo {
   height: 350px;
   background-color: #e1d67a;
 }
@@ -33,6 +34,31 @@ section {
   margin-bottom: 1%;
   height: 400px;
   background-color: #0086ff;
+}
+
+.home,
+.sidebar,
+.center {
+  background-color: #abcfe7;
+}
+
+.home {
+  height: 70px;
+  margin-bottom: 1%;
+}
+
+.sidebar {
+  float: left;
+  height: 300px;
+  width: calc(100% / 5);
+}
+
+.center {
+  float: left;
+  height: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: calc((100% / 5) * 3 - 20px);
 }
 
 footer {
