@@ -3,3 +3,39 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contenitore {
+  width: 70%;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+  background-color: #e579e6;
+}
+
+section {
+  margin-top: 1%;
+}
+
+#giallo {
+  height: 350px;
+  background-color: #e1d67a;
+}
+
+.contenitore_blu {
+  margin-bottom: 1%;
+  height: 400px;
+  background-color: #0086ff;
+}
+
+footer {
+  height: 50px;
+  background-color: #8801fe;
+}
